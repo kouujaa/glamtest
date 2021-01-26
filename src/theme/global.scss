@@ -1,0 +1,40 @@
+@import "./variable.scss";
+@import "./fonts.scss";
+
+body {
+  background: #fff;
+}
+.ant-layout {
+  background: #fff;
+}
+.btn {
+  &:focus {
+    outline: 0;
+    box-shadow: none;
+  }
+}
+
+.ant-btn-primary {
+  background: #bb9b62;
+  color: #fff;
+  border-color: #bb9b62;
+  font-family: "Playfair Display";
+  padding: 10px 30px;
+  height: auto;
+  font-size: 16px;
+  transition: all 0.5s ease-in-out;
+  &:hover {
+    transition: all 0.5s ease-in-out;
+    background: #5c452d;
+    border-color: #5c452d;
+  }
+  &:focus {
+    transition: all 0.5s ease-in-out;
+    background: #5c452d;
+    border-color: #5c452d;
+  }
+  i {
+    padding: 0 0 0 10px;
+    font-size: 14px;
+  }
+}

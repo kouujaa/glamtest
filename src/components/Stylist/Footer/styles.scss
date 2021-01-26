@@ -1,0 +1,18 @@
+.footer_dashboard{
+    clear: both;
+    text-align: center;
+    background: #bb9b62;
+    p{
+        margin: 0;
+        color: #fff;
+        font-size: 12px;
+    }
+    a{
+        color: #5c452d;
+        font-size: 12px;
+        &:hover{
+            color: #5c452d;
+            text-decoration: none;
+        }
+    }
+}

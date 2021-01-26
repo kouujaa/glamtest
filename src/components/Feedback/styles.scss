@@ -1,0 +1,25 @@
+.feedback_wrap {
+  clear: both;
+  padding: 50px;
+  min-height: calc(100vh - 447px);
+  .section__title {
+    text-align: center;
+    margin: 70px 0 50px;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Playfair Display";
+    font-weight: 500;
+  }
+  p,
+  li {
+    font-size: 15px;
+    margin: 0;
+    font-family: "Poppins";
+    color: #2f2f2f;
+  }
+}

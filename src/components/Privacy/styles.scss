@@ -1,0 +1,42 @@
+.privacy_wrap {
+  clear: both;
+  padding: 50px;
+  .section__title {
+    text-align: center;
+    margin: 70px 0 50px;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Poppins";
+    font-weight: 500;
+    color:#5c452d;
+    margin-top: 25px;
+  }
+  .pricay-policy ul{
+    list-style-type: none;
+    li{
+      color: #2f2f2f;
+    }
+  }
+  p,
+  li {
+    font-size: 15px;
+    margin: 0;
+    font-family: "Poppins";
+    color: #2f2f2f;
+  }
+  strong{
+    color: #bb9b62;
+  }
+}
+
+
+@media screen and (max-width:992px){
+  .privacy_wrap{
+  padding:unset;
+  }
+}

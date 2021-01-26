@@ -1,0 +1,548 @@
+.salon_wrap {
+  margin-bottom: 50px;
+
+  .salon_img {
+    width: 100%;
+    max-width: 100%;
+    height: 500px;
+    object-fit: cover;
+    max-height: 100%;
+  }
+
+  .salon_info_wrap {
+    text-align: left;
+    margin: 70px 0 20px;
+    clear: both;
+
+    .info_wrapper {
+      width: calc(100% - 200px);
+      float: left;
+
+      h2 {
+        font-size: 30px;
+        font-family: "Playfair Display";
+        font-weight: 500;
+      }
+
+      .salon_address {
+        font-size: 15px;
+        font-family: "Poppins";
+        color: #a2a2a2;
+      }
+
+      .salon_info {
+        color: #1f0d0b;
+        font-family: "Poppins";
+      }
+    }
+
+    .salon_ratings {
+      width: 200px;
+      float: right;
+      text-align: right;
+      margin: 0 0 5px;
+      font-size: 20px;
+
+      .filled_star {
+        color: #ffcc00;
+      }
+
+      .empty_star {
+        color: #a2a2a2;
+      }
+    }
+  }
+
+  .contact_details {
+    clear: both;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+
+    p {
+      i {
+        color: #bb9b62;
+        font-size: 25px;
+        padding: 0 10px;
+      }
+
+      .fa-phone {
+        transform: rotate(90deg);
+      }
+
+      span {
+        color: #1f0d0b;
+        font-family: "Poppins";
+        vertical-align: top;
+
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+
+    img {
+      padding-top: 14px;
+    }
+
+    .ant-carousel {
+      width: 30%;
+      margin-right: 5%;
+    }
+
+    .ant-carousel .slick-dots li.slick-active button {
+      width: 24px;
+      background: #bb9b62;
+      opacity: 1;
+    }
+
+    .slick-dots li.slick-active button:before {
+      opacity: 0;
+    }
+
+    .ant-carousel .slick-dots li button {
+      background: #bb9b62;
+      opacity: .75;
+    }
+
+    .ant-carousel .slick-list .slick-slide {
+      padding: 0px;
+      padding-top: 0;
+      height: 264px;
+    }
+
+    .ant-carousel .slick-slide img {
+      display: block;
+      width: 100%;
+      height: 240px;
+      object-fit: contain;
+      object-position: 50% 0;
+    }
+
+    .slick-dots li button:before {
+      opacity: 0;
+    }
+  }
+
+  .review_wrap {
+    clear: both;
+    margin-bottom: 70px;
+
+    .ant-collapse {
+      background: transparent;
+      border: 0;
+      border-top: 1px solid #ccc;
+      // border-bottom: 1px solid #ccc;
+      border-radius: 0;
+    }
+
+    .ant-collapse-header {
+      border-radius: 0 !important;
+    }
+
+    .ant-collapse-content {
+      border-radius: 0 !important;
+    }
+
+    .review_title {
+      font-size: 20px;
+      font-family: "Playfair Display";
+      font-weight: 500;
+      margin: 0;
+      padding: 10px 0;
+
+      .btn_addreview {
+        background: #bb9b62;
+        border-radius: 50px;
+        padding: 2px 20px;
+        transition: all 0.5s ease-in-out;
+        color: #fff;
+        width: auto;
+        float: right;
+        margin: 0;
+        font-family: "Playfair Display";
+
+        &:hover {
+          transition: all 0.5s ease-in-out;
+          background: #5c452d;
+          border-color: #5c452d;
+          color: #fff;
+        }
+      }
+    }
+
+    .review_content_wrap:last-child {
+      border: 0;
+    }
+
+    .review_content_wrap {
+      float: left;
+      border-bottom: 1px solid #ccc;
+      padding-top: 10px;
+      width: 100%;
+
+      .profile_img {
+        width: 50px;
+        height: 50px;
+        float: left;
+        clear: both;
+
+        img {
+          width: 100%;
+          height: 100%;
+          border-radius: 50%;
+          object-fit: cover;
+        }
+      }
+
+      .user_name {
+        font-weight: bold;
+        margin: 0;
+        float: left;
+        font-size: 15px;
+
+        .time_review {
+          font-weight: bold;
+          color: #888;
+          margin-left: 10px;
+        }
+      }
+
+      .review {
+        clear: both;
+        width: 100%;
+      }
+
+      .review_ratings {
+        height: -webkit-fill-available;
+        width: 200px;
+        float: right;
+        text-align: right;
+        margin: 0 0 5px;
+        font-size: 20px;
+        display: inline-block;
+        flex-direction: row;
+        justify-content: space-between;
+
+        img {
+          width: 40px;
+          object-fit: contain;
+        }
+
+        .show {
+          z-index: 999;
+          display: none;
+        }
+
+        .show .overlay {
+          width: 100%;
+          height: 100%;
+          background: rgba(0, 0, 0, .5);
+          position: fixed;
+          top: 0;
+          left: 0;
+        }
+
+        .show .img-show {
+          width: 600px;
+          height: 565px;
+          background: #FFF;
+          position: fixed;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          overflow: hidden;
+          border-radius: 10px;
+        }
+
+        .img-show span {
+          position: absolute;
+          top: 10px;
+          right: 10px;
+          z-index: 99;
+          cursor: pointer;
+        }
+
+        .img-show img {
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          top: 0;
+          left: 0;
+        }
+
+        .filled_star {
+          color: #ffcc00;
+        }
+
+        .empty_star {
+          color: #a2a2a2;
+        }
+      }
+
+      .review_content {
+        width: calc(100% - 275px);
+        float: left;
+        padding: 0 20px;
+      }
+    }
+  }
+
+  .salon_services {
+    clear: both;
+
+    .salon_title {
+      font-size: 20px;
+      font-family: "Playfair Display";
+      font-weight: 500;
+      margin: 0 0 20px;
+      text-align: center;
+      padding: 10px 0;
+    }
+
+    .services_wrap {
+      border-bottom: 1px solid #ccc;
+      clear: both;
+      float: left;
+      width: 100%;
+      padding: 15px 0;
+    }
+
+    .left_wrap {
+      //width: calc(100% - 300px);
+      width: 65%;
+      float: left;
+
+      p {
+        font-size: 14px;
+        font-family: "Poppins";
+        color: #1f0d0b;
+        margin: 0;
+      }
+    }
+
+    .right_wrap {
+      width: 35%;
+      float: right;
+      text-align: right;
+
+      label {
+        font-family: "Poppins";
+        color: #1f0d0b;
+        margin: 0;
+        display: flex;
+        float: right;
+        flex-direction: row;
+
+        input {
+          margin-top: 3px;
+        }
+
+        .form-control:focus {
+          box-shadow: none;
+        }
+
+        span {
+          font-size: 22px;
+          padding: 0 10px;
+        }
+
+        .btn_book {
+          background: #bb9b62;
+          border-radius: 50px;
+          padding: 2px 20px;
+          transition: all 0.5s ease-in-out;
+          color: #fff;
+          width: auto;
+          float: right;
+          margin: 0;
+          font-family: "Playfair Display";
+
+          &:hover {
+            transition: all 0.5s ease-in-out;
+            background: #5c452d;
+            border-color: #5c452d;
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+}
+
+.modal_head {
+  font-family: "Playfair Display";
+  font-size: 20px;
+  margin: 0;
+}
+
+.modal_body {
+  clear: both;
+
+  label {
+    width: 100%;
+    color: #1f0d0b;
+    font-size: 18px;
+    font-family: "Poppins";
+    margin-bottom: 15px;
+  }
+
+  .textarea {
+    font-family: "Poppins";
+    border-radius: 20px;
+    box-shadow: 0 4px 10px 0 #bbb;
+    min-height: 200px;
+    padding: 22px;
+    transition: all 0.4s ease-in-out;
+    margin-bottom: 30px;
+
+    &:focus {
+      border-color: #ced4da;
+      outline: 0;
+      box-shadow: none;
+      transition: all 0.4s ease-in-out;
+    }
+  }
+
+  .star_rating {
+    i {
+      font-size: 40px;
+    }
+  }
+
+  .cart__button {
+    display: flex;
+
+    button {
+      background: #bb9b62;
+      border-radius: 50px;
+      padding: 2px 20px;
+      transition: all 0.5s ease-in-out;
+      color: #fff;
+      width: auto;
+      float: left;
+      margin: 0 -10px 0 75px;
+      font-family: "Poppins";
+    }
+  }
+
+  .modal_footer {
+    clear: both;
+    padding-bottom: 24px;
+
+    .btn_submit {
+      background: #bb9b62;
+      border-radius: 50px;
+      padding: 2px 20px;
+      transition: all 0.5s ease-in-out;
+      color: #fff;
+      width: auto;
+      float: right;
+      margin: 0;
+      font-family: "Playfair Display";
+
+      &:hover {
+        transition: all 0.5s ease-in-out;
+        background: #5c452d;
+        border-color: #5c452d;
+        color: #fff;
+      }
+    }
+  }
+}
+
+.react-datepicker__time-list-item--disabled {
+  display: none
+}
+
+button.favorite_btn {
+  float: right;
+  background: #bb9b62;
+  border: none;
+  margin-bottom: 1em;
+
+  &:hover {
+    background: #bb9b62;
+  }
+
+  &:focus {
+    background: #bb9b62;
+  }
+
+  span {
+    color: #fff !important;
+  }
+}
+
+.image-show {
+  border: 2px solid #bb9b62;
+  margin: 10px;
+}
+
+.image-show .hide-icon-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #bb9b62;
+  height: 30px;
+  width: 30px;
+  display: block;
+  text-align: center;
+  cursor: pointer;
+  padding-top: 4px;
+  color: #fff;
+
+}
+
+
+@media screen and (max-width:600px){
+  .salon_wrap .salon_img{
+    height: 130px;
+    object-fit: fill;
+  }
+  .salon_wrap .salon_info_wrap .info_wrapper{
+    width: 100%;
+  }
+
+  .salon_wrap .salon_info_wrap .salon_ratings{
+    width: 100%;
+    text-align: left;
+    float: left;
+  }
+
+  .salon_wrap .contact_details .ant-carousel{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .mobile-dblock{
+    display: block;
+  }
+
+  .salon_wrap .contact_details{
+    display: block;
+  }
+  .salon_wrap .contact_details{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .salon_wrap .review_wrap .review_content_wrap{
+    padding-bottom: 10px;
+  }
+  .ant-collapse-content > .ant-collapse-content-box{
+    padding: 0px;
+  }
+
+  .salon_wrap .review_wrap .review_content_wrap .review_content{
+    width: 100%;
+    padding: 0;
+    margin-top: 10px;
+  }
+
+  .salon_wrap .review_wrap .review_content_wrap .review_ratings{
+    text-align: left;
+    width: 100%;
+  }
+}

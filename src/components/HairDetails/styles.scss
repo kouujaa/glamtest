@@ -1,0 +1,160 @@
+.hairstyles_wrap {
+  .section__title {
+    text-align: center;
+    margin: 70px 0 20px;
+    h2 {
+      font-size: 30px;
+      margin: 0;
+      font-family: "Playfair Display";
+      font-weight: 500;
+    }
+    p {
+      font-size: 15px;
+      margin: 0;
+      font-family: "Poppins";
+      color: #a2a2a2;
+    }
+  }
+  .imgs {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    margin: 0 auto;
+  }
+
+  .main__img .slick-slide {
+    transition: all 0.3s ease;
+    filter: grayscale(100%);
+  }
+
+  .main__img .slick-center {
+    filter: grayscale(0);
+    img {
+      transition: all 0.3s ease;
+      transform: scale(1.3);
+      box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.5);
+    }
+  }
+
+  .slider {
+    width: 100%;
+    margin: 0 auto 70px;
+    text-align: center;
+    padding: 0 20px 20px;
+    color: white;
+    .slide {
+      padding: 40px;
+      .child-element {
+        -webkit-transition: all 0.2s ease;
+        transition: all 0.2s ease;
+        background: transparent;
+        width: 100%;
+        height: 70px;
+      }
+    }
+    .slide.slick-center .child-element {
+      background: #fff;
+      -webkit-transform: translate(-70px, 0px);
+      transform: translate(-70px, 0px);
+      width: calc(100% + 140px);
+      max-width: initial;
+    }
+  }
+  .text__slider {
+    margin: 20px 0 0 0;
+    color: #727272;
+    font-size: 12px;
+  }
+  .salons_wrap {
+    h2 {
+      font-family: "Poppins";
+      margin-bottom: 20px;
+      font-size: 25px;
+    }
+    .card {
+      box-shadow: 0px 0px 15px 8px rgba(231, 231, 231, 1);
+      border: 0;
+      cursor: pointer;
+      margin-bottom: 30px;
+      .card_img {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        img {
+          width: 50%;
+          object-fit: cover;
+        }
+      }
+      .salon_description {
+        font-family: "Poppins";
+        padding: 20px 10px;
+        color: #1f0d0b;
+        .salon_name {
+          margin: 0;
+          font-family: "Playfair Display";
+          font-size: 20px;
+        }
+        .salon_address {
+          font-size: 14px;
+          margin: 0 0 5px;
+        }
+        .ratings_wrap {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        }
+        .btn_rate_salon {
+          border-radius: 50px;
+          padding: 5px 10px;
+          width: auto;
+          background-color: #d8bd93;
+          color: #1f0d0b;
+          font-size: 15px;
+          line-height: 19px;
+          margin: 0;
+          font-family: "Poppins";
+          transition: all 0.5s ease-in-out;
+          &:hover {
+            transition: all 0.5s ease-in-out;
+            background: #5c452d;
+            border-color: #5c452d;
+            color: #fff;
+          }
+          &:focus {
+            transition: all 0.5s ease-in-out;
+            background: #5c452d;
+            border-color: #5c452d;
+            color: #fff;
+          }
+        }
+        .salon_ratings {
+          margin: 0 0 5px;
+          font-size: 20px;
+          .filled_star {
+            color: #ffcc00;
+          }
+          .empty_star {
+            color: #a2a2a2;
+          }
+        }
+        .avg_cost {
+          font-size: 30px;
+          margin: 0 0 5px;
+        }
+        .salon_speciality {
+          font-size: 12px;
+          margin: 0;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .hairstyles_wrap {
+    .slider .slide {
+      padding: 40px 0;
+    }
+  }
+}
+

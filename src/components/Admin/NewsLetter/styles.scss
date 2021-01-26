@@ -1,0 +1,200 @@
+.search_wrapper {
+  .form-inline {
+    justify-content: center;
+    .ant-btn-primary {
+      padding: 6px 30px;
+    }
+  }
+}
+
+.pagination_wrapper {
+  text-align: center;
+  .anticon {
+    line-height: 30px;
+    vertical-align: top;
+  }
+  .ant-pagination-item-active {
+    border-color: #bb9b62;
+  }
+  .ant-pagination-item:focus,
+  .ant-pagination-item:hover {
+    border-color: #bb9b62;
+  }
+  .ant-pagination-prev:focus .ant-pagination-item-link,
+  .ant-pagination-next:focus .ant-pagination-item-link,
+  .ant-pagination-prev:hover .ant-pagination-item-link,
+  .ant-pagination-next:hover .ant-pagination-item-link {
+    color: #888;
+    border-color: #bb9b62;
+  }
+}
+
+.newsletter_wrapper {
+  padding: 50px 0;
+  thead {
+    tr {
+      background: #e0d7c2;
+      td {
+        color: #1f0d0b !important;
+      }
+    }
+  }
+  tr {
+    font-family: "Poppins";
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: #d4d4d4 0px 0px 10px;
+    margin-bottom: 20px;
+    float: left;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    th,
+    td {
+      min-width: 200px;
+      color: #1f0d0b;
+    }
+    td:first-child {
+      min-width: 300px;
+      text-align: left;
+      p {
+        margin: 0;
+      }
+    }
+    a {
+      color: #1f0d0b;
+      text-decoration: none;
+    }
+    i {
+      color: #1f0d0b;
+      margin-right: 5px;
+    }
+  }
+  .download-table-xls-button{
+    background: #bb9b62;
+    border: none;
+    color: #fff;
+    font-weight: 400;
+    text-align: center;
+    padding: 6px 18px;
+    font-size: 14px;
+    border-radius: 4px;
+  }
+  .download-table-xls-button:focus{
+    background: #bb9b62;
+    border: none;
+    outline: none;
+  }
+}
+.drawer_mail_dashboard {
+    .ant-drawer-body{
+      overflow-x: hidden;
+      height: 100%;
+    }
+  .ant-drawer-title {
+    font-family: "Playfair Display";
+    font-size: 20px;
+  }
+  label {
+    font-family: "Poppins";
+    padding: 0 22px;
+    margin: 0;
+    width: 100%;
+    font-size: 15px;
+  }
+  input {
+    font-family: "Poppins";
+    border-radius: 20px;
+    box-shadow: 0 4px 10px 0 #bbb;
+    padding: 22px;
+    transition: all 0.4s ease-in-out;
+    font-size: 15px;
+    &:focus {
+      border-color: #ced4da;
+      outline: 0;
+      box-shadow: none;
+      transition: all 0.4s ease-in-out;
+    }
+  }
+  span {
+    width: 100%;
+    margin-bottom: 15px;
+    color: #ff0000;
+    padding: 0 22px;
+    margin-top: 5px;
+    float: left;
+  }
+  .text_editor {
+    .ck-toolbar {
+      // width: 80%;
+      // margin-top: 20px;
+      font-family: "Poppins";
+      border-radius: 8px;
+      box-shadow: 0 4px 10px 0 #bbb;
+      transition: all 0.4s ease-in-out;
+      font-size: 15px;
+      &:focus {
+        border-color: #ced4da;
+        outline: 0;
+        box-shadow: none;
+        transition: all 0.4s ease-in-out;
+      }
+    }
+    .ck-editor__editable_inline {
+      min-height: 150px;
+      margin-top: 20px;
+      font-family: "Poppins";
+      border-radius: 20px !important;
+      box-shadow: 0 4px 10px 0 #bbb;
+      transition: all 0.4s ease-in-out;
+      font-size: 15px;
+      &:focus {
+        border-color: #ced4da;
+        outline: 0;
+        box-shadow: none;
+        transition: all 0.4s ease-in-out;
+      }
+    }
+  }
+  .btn_wrap {
+    text-align: right;
+    position: relative;
+    button {
+      // position: absolute;
+      // bottom: -140px;
+      // right: 0;
+      border-radius: 50px;
+      padding: 10px 20px 13px;
+      background: #d8bd93 !important;
+      color: #fff !important;
+      font-size: 20px;
+      line-height: 19px;
+      margin: 0 0 20px;
+      font-family: "Playfair Display";
+      transition: all 0.5s ease-in-out;
+      &:hover {
+        background: #5c452d !important;
+        border-color: #5c452d;
+        transition: all 0.5s ease-in-out;
+      }
+    }
+    p{
+      font-size: 16px;
+      font-family: "Poppins";
+      background: #bb9b62;
+      text-align: center;
+      width: 100%;
+      color: #fff;
+    }
+  }
+  .ant-spin-nested-loading > div > .ant-spin{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 4;
+    display: block;
+    width: 10px;
+    height: 10px;
+    max-height: 400px;
+  }
+}

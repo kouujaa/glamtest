@@ -1,0 +1,97 @@
+.profile_user__wrap {
+  padding-top: 50px;
+    .col-md-9 {
+      margin: 0 auto 70px;
+      box-shadow: 0 8px 20px 0 #e7e7e7;
+      background: #fff;
+      padding: 50px 20px;
+      border-radius: 10px;
+    }
+    .section__title {
+      text-align: center;
+      padding: 20px 0px;
+      margin: 0 auto;
+      h2 {
+        font-size: 30px;
+        margin: 0;
+        font-family: "Playfair Display";
+        font-weight: 500;
+      }
+      p {
+        font-size: 15px;
+        margin: 0;
+        font-family: "Poppins";
+        color: #a2a2a2;
+        a {
+          color: #5c452d;
+          &:hover {
+            color: #d8bd93;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+    .form__wrap {
+      width: 60%;
+      margin: 0 auto;
+      .form-group {
+        margin-bottom: 40px !important;
+        p{
+          padding: 0 0 0 20px;
+          color: #f00;
+          font-size: 12px;
+          margin: 0;
+        }
+        .label_form {
+          font-family: "Poppins";
+          padding: 0 22px;
+          margin: 0;
+        }
+        .input {
+          font-family: "Poppins";
+          border-radius: 20px;
+          box-shadow: 0 4px 10px 0 #bbb;
+          padding: 22px;
+          transition: all 0.4s ease-in-out;
+          margin-bottom: 0;
+          &:focus {
+            border-color: #ced4da;
+            outline: 0;
+            box-shadow: none;
+            transition: all 0.4s ease-in-out;
+          }
+        }
+        .textarea {
+          min-height: 200px;
+        }
+      }
+      .btn_contact {
+        border-radius: 50px;
+        padding: 15px 20px 18px;
+        width: 100%;
+        background: #d8bd93 !important;
+        color: #fff !important;
+        font-size: 20px;
+        line-height: 19px;
+        margin: 30px 0 0 0;
+        font-family: "Playfair Display";
+        transition: all 0.5s ease-in-out;
+        &:hover {
+          background: #5c452d !important;
+          border-color: #5c452d;
+          transition: all 0.5s ease-in-out;
+        }
+      }
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .contactus__wrap {
+      .form__wrap {
+        width: 80%;
+      }
+    }
+  }
+  
+
+

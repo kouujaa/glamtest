@@ -1,0 +1,94 @@
+.search_wrapper {
+    .form-inline {
+      justify-content: center;
+      .ant-btn-primary {
+        padding: 6px 30px;
+      }
+    }
+  }
+  .favSalon__wrapper {
+    padding: 50px 0;
+    min-height: 65vh;
+    .col-md-4 {
+      margin-bottom: 30px;
+    }
+    a{
+      &:hover{
+        text-decoration: none;
+      }
+    }
+    .card_hairstylist {
+      &:hover{
+        -webkit-transform: scale(1.01);
+        transform: scale(1.05);
+        -webkit-transition: -webkit-transform .2s;
+        transition: -webkit-transform .2s;
+        transition: transform .2s;
+        transition: transform .2s,-webkit-transform .2s;
+      }
+      .ant-card-actions {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        li {
+          i {
+            color: #888;
+          }
+          .ellipsis {
+            &:hover {
+              color: #28a745;
+            }
+          }
+          .edit {
+            &:hover {
+              color: #0056b3;
+            }
+          }
+          .delete {
+            &:hover {
+              color: #dc3545;
+            }
+          }
+        }
+      }
+      .ant-card-body {
+        font-family: "Poppins";
+        .ant-card-meta-title {
+          color: #bb9b62;
+        }
+        .ant-card-meta-description {
+          color: #888;
+        }
+      }
+    }
+  }
+  
+  .pagination_wrapper {
+    text-align: center;
+    .anticon {
+      line-height: 30px;
+      vertical-align: top;
+    }
+    .ant-pagination-item-active {
+      border-color: #bb9b62;
+    }
+    .ant-pagination-item:focus,
+    .ant-pagination-item:hover {
+      border-color: #bb9b62;
+    }
+    .ant-pagination-prev:focus .ant-pagination-item-link,
+    .ant-pagination-next:focus .ant-pagination-item-link,
+    .ant-pagination-prev:hover .ant-pagination-item-link,
+    .ant-pagination-next:hover .ant-pagination-item-link {
+      color: #888;
+      border-color: #bb9b62;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .ant-list-item-action {
+      margin-left: 12px;
+      width: 90%;
+      text-align: right;
+    }
+  }

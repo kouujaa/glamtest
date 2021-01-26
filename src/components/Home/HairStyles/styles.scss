@@ -1,0 +1,116 @@
+.hairstyle__wrap {
+  .section__title {
+    text-align: center;
+    margin: 70px 0 50px;
+    h2 {
+      font-size: 30px;
+      margin: 0;
+      font-family: "Playfair Display";
+      font-weight: 500;
+    }
+    p {
+      font-size: 15px;
+      margin: 0;
+      font-family: "Poppins";
+    }
+  }
+  .card {
+    border: 0;
+    background: transparent;
+    width: 150px;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+    .card-body {
+      padding: 20px 0;
+    }
+    .card-title {
+      font-family: "Playfair Display";
+      margin-bottom: 5px;
+    }
+    .card-text {
+      font-family: "Poppins";
+      color: #727272;
+      font-size: 14px;
+      line-height: 1.5;
+    }
+    .card-img-top {
+      height: 150px;
+      object-fit: contain;
+      filter: grayscale(100%);
+      transition: all 0.3s ease-in-out;
+      &:hover {
+        filter: grayscale(0);
+        box-shadow: 0px 0px 120px -54px rgba(0, 0, 0, 0.67);
+        transform: scale(1.1);
+        transition: all 0.3s ease-in-out;
+      }
+    }
+  }
+  .btn__wrap {
+    margin: 50px 50px 0;
+  }
+  .ant-btn-primary{
+    width: 15%;
+    transition: all 0.3s ease-in-out;
+    padding: 10px 34px;
+    i{
+      transition: all 0.3s ease-in-out;
+    }
+    &:hover{
+      i{
+        padding-left: 30px;
+        transition: all 0.3s ease-in-out;
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width: 1200px){
+  .hairstyle__wrap .ant-btn-primary {
+    width: 30%;
+    padding: 10px 80px;
+  }
+  .salons__wrap .ant-btn-primary {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 992px){
+  .hairstyle__wrap .ant-btn-primary {
+    padding: 10px 45px;
+  }
+  .salons__wrap .ant-btn-primary {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px){
+  .hairstyle__wrap .ant-btn-primary {
+    width: 80%;
+  }
+}
+
+
+@media screen and (max-width: 767px){
+  .hairstyle__wrap {
+    .col-md-3{
+      width: 50%;
+      padding: 0;
+      margin: 0;
+    }
+    .ant-btn-primary {
+      padding: 10px;
+    }
+  }
+}
+
+@media screen and (max-width: 340px){
+  .hairstyle__wrap {
+    .col-md-3{
+      width: 100%;
+    }
+  }
+}
+

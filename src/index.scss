@@ -1,0 +1,22 @@
+// .admin__dashboard-sider {
+//     flex: 0 0 256px !important;
+//     max-width: 256px !important;
+//     min-width: 256px !important;
+//     width: 256px !important;
+// }
+
+.main_wrap_dashboard{
+    background: #f1f1f1 !important;
+    padding: 20px 0;
+    min-height: calc(100vh - 153px) !important;
+}
+.footer_wrap_dashboard{
+    clear: both;
+    padding: 0 !important;
+}
+body{
+    background: #f1f1f1 !important;
+}
+.salons_list .salon_info_wrap ul .ant-rate-star{
+    width: auto !important;
+}

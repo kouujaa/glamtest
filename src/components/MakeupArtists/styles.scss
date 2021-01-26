@@ -1,0 +1,331 @@
+.makeupartists_wrap {
+    .section__title {
+      text-align: center;
+      margin: 70px 0 20px;
+      h2 {
+        font-size: 30px;
+        margin: 0;
+        font-family: "Playfair Display";
+        font-weight: 500;
+      }
+      p {
+        font-size: 15px;
+        margin: 0;
+        font-family: "Poppins";
+        color: #a2a2a2;
+      }
+    }
+    .bannerheight{
+      width: 100%;
+      max-width: 100%;
+      height: 500px;
+      object-fit: cover;
+      max-height: 100%;
+    }
+    .imgs {
+      height: 100px;
+      width: 100px;
+      object-fit: cover;
+      margin: 0 auto;
+    }
+    .filter_wrapper {
+      border-top: 1px solid #c2c2c2;
+      border-bottom: 1px solid #c2c2c2;
+      padding: 15px 0;
+    }
+    ul{
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      // display: flex;
+      // justify-content: flex-start;
+      // align-items: center;
+      overflow: hidden;
+      text-align: center;
+      li {
+        max-height: 32px;
+        margin-right: 20px;
+        display: inline-block;
+        vertical-align: middle;
+        .select_salonwrap {
+          width: 150px;
+          font-family: "Poppins";
+          ::placeholder {
+            color: #000;
+          }
+          .ant-select-selection {
+            border: 0;
+          }
+          .ant-select-selection__rendered {
+            margin: 0;
+            width: calc(100% - 20px);
+            color: #000;
+            max-height: 32px;
+          }
+          ul{
+            overflow-x: hidden;
+            display: flex;
+            justify-content: center;
+            position: relative;
+            li{
+              background: transparent;
+              border: 0;
+              .ant-select-selection__choice__remove{
+                display: none;
+              }
+            }
+            .ant-select-selection__choice__disabled{
+              display: block;
+              padding: 0;
+              margin: 0;
+              position: absolute;
+              left: 100px;
+              top: 3px;
+            }
+          }
+        }
+        .ratings_wrap_salon{
+          overflow: visible !important;
+        }
+        .btn_reset {
+          background: #e7e7e7;
+          border-radius: 50px;
+          width: 100%;
+          padding: 2px 20px;
+          font-family: "Playfair Display";
+          &:hover {
+            transition: all 0.5s ease-in-out;
+            background: #888888;
+            border-color: #888888;
+            color: #fff;
+          }
+        }
+        .btn_apply {
+          background: #bb9b62;
+          border-radius: 50px;
+          padding: 2px 20px;
+          transition: all 0.5s ease-in-out;
+          color: #fff;
+          width: 100%;
+          font-family: "Playfair Display";
+          &:hover {
+            transition: all 0.5s ease-in-out;
+            background: #5c452d;
+            border-color: #5c452d;
+            color: #fff;
+          }
+        }
+      }
+      .ant-select-selection {
+        &:active {
+          border-color: #fff;
+          border-right-width: 1px !important;
+          outline: 0;
+          -webkit-box-shadow: 0;
+          box-shadow: none;
+        }
+        &:focus {
+          border-color: #fff;
+          border-right-width: 1px !important;
+          outline: 0;
+          -webkit-box-shadow: 0;
+          box-shadow: none;
+        }
+      }
+      .ant-select-open .ant-select-selection {
+        border-color: #fff;
+        border-right-width: 1px !important;
+        outline: 0;
+        -webkit-box-shadow: 0;
+        box-shadow: none;
+      }
+    }
+    .main__img .slick-slide {
+      transition: all 0.3s ease;
+      filter: grayscale(100%);
+    }
+  
+    .main__img .slick-center {
+      filter: grayscale(0);
+      img {
+        transition: all 0.3s ease;
+        transform: scale(1.3);
+        box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.5);
+      }
+    }
+  
+    .slider {
+      width: 100%;
+      margin: 0 auto 70px;
+      text-align: center;
+      padding: 20px 20px 20px;
+      color: white;
+      .card {
+        box-shadow: 0px 0px 15px 8px rgba(231, 231, 231, 1);
+        border: 0;
+        cursor: pointer;
+        margin-bottom: 30px;
+        height: 95%;
+        .card_img {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          height: 240px;
+          padding: 10px;
+          img {
+            width: 100% !important;
+            height: 235px;
+            margin-bottom: 0px;
+            padding-bottom: 10px;
+            object-fit: contain !important;
+          }
+        }
+        .service_name{
+          margin: 0;
+          font-family: "Poppins";
+          font-size: 20px;
+        }
+      }
+      .slide {
+        padding: 40px;
+        .child-element {
+          -webkit-transition: all 0.2s ease;
+          transition: all 0.2s ease;
+          background: transparent;
+          width: 100%;
+          height: 70px;
+        }
+      }
+      .slide.slick-center .child-element {
+        background: #fff;
+        -webkit-transform: translate(-70px, 0px);
+        transform: translate(-70px, 0px);
+        width: calc(100% + 140px);
+        max-width: initial;
+      }
+    }
+    .text__slider {
+      margin: 20px 0 0 0;
+      color: #727272;
+      font-size: 12px;
+    }
+    .salons_wrap {
+      padding: 70px 0 0 0;
+      h2 {
+        font-family: "Poppins";
+        margin-bottom: 20px;
+        font-size: 25px;
+      }
+      .card {
+        box-shadow: 0px 0px 15px 8px rgba(231, 231, 231, 1);
+        border: 0;
+        cursor: pointer;
+        margin-bottom: 30px;
+        height: 95%;
+        .card_img {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          height: 230px;
+          padding: 10px;
+          .ant-carousel{
+            width: 100%;
+          }
+          
+          .ant-carousel .slick-dots li button{
+            background-color: #bb9b62;
+          }
+          img {
+            width: 100% !important;
+            height: 235px;
+            margin-bottom: 0px;
+            padding-bottom: 10px;
+            object-fit: contain !important;
+          }
+        }
+        .salon_description {
+          font-family: "Poppins";
+          padding: 20px 10px;
+          color: #1f0d0b;
+          .salon_name {
+            margin: 0;
+            font-family: "Playfair Display";
+            font-size: 20px;
+          }
+          .salon_address {
+            font-size: 14px;
+            margin: 0 0 5px;
+          }
+          .ratings_wrap {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+          }
+          .btn_rate_salon {
+            border-radius: 50px;
+            padding: 5px 10px;
+            width: auto;
+            background-color: #d8bd93;
+            color: #1f0d0b;
+            font-size: 15px;
+            line-height: 19px;
+            margin: 0;
+            font-family: "Poppins";
+            transition: all 0.5s ease-in-out;
+            &:hover {
+              transition: all 0.5s ease-in-out;
+              background: #5c452d;
+              border-color: #5c452d;
+              color: #fff;
+            }
+            &:focus {
+              transition: all 0.5s ease-in-out;
+              background: #5c452d;
+              border-color: #5c452d;
+              color: #fff;
+            }
+          }
+          .salon_ratings {
+            margin: 0 0 5px;
+            font-size: 20px;
+            .filled_star {
+              color: #ffcc00;
+            }
+            .empty_star {
+              color: #a2a2a2;
+            }
+          }
+          .avg_cost {
+            font-size: 30px;
+            margin: 0 0 5px;
+          }
+          .salon_speciality {
+            font-size: 12px;
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .makeupartists_wrap {
+      .slider .slide {
+        padding: 40px 0;
+      }
+    }
+  }
+
+  @media screen and (max-width:992px){
+  .makeupartists_wrap .bannerheight{
+  height: 278px;
+  }
+  }
+
+  @media screen and (max-width:600px){
+  .makeupartists_wrap .bannerheight{
+  height: 150px;
+  }
+  }
+  
+  

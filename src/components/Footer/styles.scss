@@ -1,0 +1,265 @@
+.signup__wrapper {
+  /*background: #edecec !important;*/
+  background: #fff !important;
+  width: 100%;
+  margin-top: 100px;
+  .signup__fields {
+    background: #ba9b61;
+    /*border-bottom: 1px solid #c2c2c2;*/
+    .form__wrap {
+      margin: -78px 0;
+      justify-content: center;
+      padding: 20px 0 16px 0;
+      label {
+        font-size: 22px;
+        font-family: "Playfair Display";
+      }
+      .email_input {
+        border-radius: 50px;
+        padding: 27px 56px 25px;
+        width: 300px;
+        //box-shadow: 0 4px 10px 0 #bbb;
+        transition: all 0.4s ease-in-out;
+        font-size: 15px;
+        &:focus {
+          border-color: #ced4da;
+          outline: 0;
+          box-shadow: none;
+          transition: all 0.4s ease-in-out;
+        }
+      }
+      .btn_signup {
+        border-radius: 50px;
+        padding: 15px 20px 18px;
+        width: 250px;
+        background-color: #d8bd93;
+        color: #1f0d0b;
+        font-size: 20px;
+        line-height: 19px;
+        margin: 0;
+        font-family: "Playfair Display";
+        transition: all 0.5s ease-in-out;
+        &:hover {
+          transition: all 0.5s ease-in-out;
+          background: #5c452d;
+          border-color: #5c452d;
+          color: #fff;
+        }
+        &:focus {
+          transition: all 0.5s ease-in-out;
+          background: #5c452d;
+          border-color: #5c452d;
+          color: #fff;
+        }
+      }
+    }
+  }
+  .instaFeed__wrapper{
+    border-bottom: 1px solid #c2c2c2;
+    margin-top: -70px;
+    padding: 70px 0 0 0;
+    display: flex;
+    flex-direction: row;
+    overflow: overlay;
+    img{
+      height: 200px;
+    }
+  }
+}
+
+.footer__bg {
+  background: #edecec !important;
+  // min-height: 300px;
+  width: 100%;
+  padding: 50px 50px 10px !important;
+  .footer__wrap {
+    width: 100%;
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      li {
+        display: inline-block;
+        width: 33.333%;
+        a{
+          &:hover{
+            text-decoration: none;
+          }
+        }
+        p {
+          color: #1f0d0b;
+          font-size: 18px;
+          margin: 16px 0 0 0;
+          cursor: pointer;
+        }
+        span {
+          hr {
+            margin: 0;
+            border-radius: 20px;
+            border: 2px solid;
+            width: 30%;
+            color: #d8bd93;
+          }
+        }
+      }
+    }
+  }
+  .social__wrapper {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    * {
+      flex-basis: 10%;
+      margin-right: 2.33%;
+      padding: 2px 0;
+      img {
+        width: 30px;
+        cursor: pointer;
+      }
+    }
+  }
+  .footer__logo {
+    width: fit-content;
+    height: auto;
+    margin: 50px auto 0;
+    text-align: center;
+    img {
+      width: 200px;
+      margin-bottom: 15px;
+    }
+    p {
+      font-size: 12px;
+      color: #696969;
+      margin-bottom: 10px;
+      a {
+        color: #5c452d;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .signup__wrapper {
+    .signup__fields {
+      .form__wrap {
+        label {
+          font-size: 20px;
+        }
+        .email_input {
+          width: 200px;
+        }
+        .btn_signup {
+          width: 150px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width:992px){
+  .footer__bg .footer__wrap ul li{
+        width: 48.333%;
+    margin-top: 30px;
+  }
+  .signup__wrapper {
+    .signup__fields {
+      .form__wrap {
+        label {
+          font-size: 20px;
+        }
+        .email_input {
+          width: 90% !important;
+        }
+        
+      }
+    }
+  }
+}
+
+
+
+@media screen and (max-width: 767px) {
+  .signup__wrapper {
+    .signup__fields {
+      .form__wrap {    
+        display: block;
+        text-align: center;
+        .form-group{
+        display: block;
+        flex: 0;
+        flex-flow: row wrap;
+        align-items: center;
+        margin-bottom: 20px;          
+        }
+
+        label {
+          font-size: 20px;
+        }
+        .email_input {
+          width: 200px;
+          margin: 0 auto;
+        }
+        .btn_signup {
+          margin: 0 auto;
+          width: 150px;
+        }
+      }
+    }
+  }
+  .footer__bg {
+    background: #edecec !important;
+    // min-height: 300px;
+    width: 100%;
+    padding: 50px 50px 10px !important;
+    .footer__wrap {
+      width: 100%;
+      ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        margin-bottom: 20px;
+        li {
+          display: inline-block;
+          width: 100%;
+          margin-top: 20px;
+          text-align: center;
+          span {
+            hr {
+              margin: 0 auto;
+            }
+          }
+        }
+      }
+    }
+    .social__wrapper {
+      display: flex;
+      justify-content: center;
+      * {
+        padding: 5px 0;
+        img {
+          width: 50px;
+          cursor: pointer;
+          height: 50px;
+        }
+      }
+    }
+    .footer__logo {
+      width: fit-content;
+      height: auto;
+      margin: 50px auto 0;
+      text-align: center;
+      img {
+        width: 200px;
+        margin-bottom: 15px;
+      }
+      p {
+        font-size: 12px;
+        color: #696969;
+        margin-bottom: 10px;
+        a {
+          color: #5c452d;
+        }
+      }
+    }
+  }
+}

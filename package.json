@@ -1,0 +1,84 @@
+{
+  "name": "glam-plug-app",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": "15.5.1"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^4.4.0",
+    "@ckeditor/ckeditor5-build-decoupled-document": "^17.0.0",
+    "@ckeditor/ckeditor5-react": "^2.1.0",
+    "@fortawesome/fontawesome-svg-core": "^1.2.26",
+    "@fortawesome/free-solid-svg-icons": "^5.12.0",
+    "@fortawesome/react-fontawesome": "^0.1.8",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "antd": "^4.10.3",
+    "bootstrap": "^4.4.1",
+    "formik": "^2.1.2",
+    "immutable": "^4.0.0-rc.12",
+    "isomorphic-fetch": "^3.0.0",
+    "jquery": "^3.4.1",
+    "js-cookie": "^2.2.1",
+    "moment": "^2.27.0",
+    "perm": "^1.0.0",
+    "react": "^16.12.0",
+    "react-aws-s3": "^1.3.0",
+    "react-component-countdown-timer": "^0.1.8",
+    "react-content-loader": "^5.0.2",
+    "react-cookie": "^4.0.3",
+    "react-datepicker": "^3.1.3",
+    "react-dev-utils": "10.1.0",
+    "react-dom": "^16.12.0",
+    "react-dropzone": "^10.2.1",
+    "react-html-table-to-excel": "^2.0.0",
+    "react-input-mask": "^2.0.4",
+    "react-redux": "^7.1.3",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "^3.4.4",
+    "react-select": "^3.0.8",
+    "react-slick": "^0.25.2",
+    "react-stripe-checkout": "^2.6.3",
+    "react-tabs": "^3.1.0",
+    "reactstrap": "^8.4.1",
+    "redux": "^4.0.5",
+    "redux-form": "^8.2.6",
+    "redux-observable": "^1.2.0",
+    "redux-promise-middleware": "^6.1.2",
+    "redux-thunk": "^2.3.0",
+    "reqwest": "^2.0.5",
+    "rxjs-compat": "^6.5.4",
+    "sass": "^1.32.4",
+    "slick-carousel": "^1.8.1",
+    "yeoman-generator": "^4.5.0",
+    "yo": "^3.1.1",
+    "yup": "^0.28.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "generate:generator": "./node_modules/.bin/yo ./generator/generator",
+    "generate:component": "./node_modules/.bin/yo ./generator/component",
+    "generate:view": "./node_modules/.bin/yo ./generator/view",
+    "generate:duck": "./node_modules/.bin/yo ./generator/duck"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

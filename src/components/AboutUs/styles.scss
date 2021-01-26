@@ -1,0 +1,123 @@
+.aboutus__wrap {
+  .section__title {
+    text-align: center;
+    margin: 70px 0 50px;
+    h2 {
+      font-size: 30px;
+      margin: 0;
+      font-family: "Playfair Display";
+      font-weight: 500;
+    }
+    p {
+      font-size: 15px;
+      margin: 0;
+      font-family: "Poppins";
+      color: #a2a2a2;
+    }
+  }
+  .content__aboutus{
+      margin-bottom: 40px;
+      .img_aboutus{
+          width: 80%;
+          text-align: center;
+          img{
+              width: 100%;
+              border-radius: 5px;
+          }
+      }
+      .content__text{
+          padding-top: 40px;
+          h2{
+            font-family: "Poppins";
+            font-size: 20px;
+            font-style: italic;
+          }
+          p{
+              font-family: "Poppins";
+              font-size: 16px;
+          }
+      }
+  }
+  .stylist__wrap{
+      text-align: center;
+      .section__title{
+          h2{
+              margin-bottom: 40px;
+          }
+      }
+      .col-md-8{
+          margin: 0 auto;
+      }
+      .btn_submit {
+        border-radius: 50px;
+        padding: 15px 20px 18px;
+        width: 300px;
+        background: #bb9b62 !important;
+        color: #fff !important;
+        font-size: 20px;
+        line-height: 19px;
+        margin: 30px 0 0 0;
+        font-family: "Playfair Display";
+        transition: all 0.5s ease-in-out;
+        &:hover {
+          background: #5c452d !important;
+          border-color: #5c452d;
+          transition: all 0.5s ease-in-out;
+        }
+      }
+  }
+}
+
+
+@media screen and (max-width: 767px){
+  .aboutus__wrap {
+    .content__aboutus{
+        .img_aboutus{
+            margin: 0 auto;
+        }
+        .content__text{
+          text-align: center;
+          padding: 40px 10px 0;
+            p{
+                font-size: 14px;
+            }
+        }
+    }
+    .stylist__wrap{
+        text-align: center;
+        .section__title{
+          margin: 0;
+            h2{
+                margin-bottom: 40px;
+            }
+        }
+        .btn_submit {
+          border-radius: 50px;
+          padding: 15px 20px 18px;
+          width: 80%;
+          margin: 30px auto 0;
+          background: #bb9b62 !important;
+          color: #fff !important;
+          font-size: 20px;
+          line-height: 19px;
+          font-family: "Playfair Display";
+          transition: all 0.5s ease-in-out;
+          &:hover {
+            background: #5c452d !important;
+            border-color: #5c452d;
+            transition: all 0.5s ease-in-out;
+          }
+        }
+    }
+  }
+}
+
+
+@media screen and (max-width:992px){
+.aboutus__wrap .content__aboutus .img_aboutus{
+  width:100%;
+}
+  .aboutus__wrap .content__aboutus .img_aboutus img{
+  width:50%;
+  }
+}

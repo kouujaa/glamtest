@@ -1,0 +1,102 @@
+.sidenav_wrap {
+  width: 100%;
+  float: left;
+  clear: both;
+  ul {
+    clear: both;
+    background: #fff;
+    border: 0;
+  }
+  .title {
+    font-size: 20px;
+    margin: 0;
+    font-family: "Poppins";
+    padding: 25px 0 30px 35px;
+  }
+  .ant-menu-item {
+    color: #a2a2a2;
+    font-size: 16px;
+    font-family: "Poppins";
+    margin: 0;
+  }
+  .ant-menu-submenu-arrow {
+    display: none;
+  }
+  span {
+    font-size: 16px;
+    font-family: "Poppins";
+    margin: 0;
+  }
+
+  .ant-menu-submenu-open {
+    .ant-menu-submenu-title {
+      color: #fff;
+      background: #bb9b62;
+      width: 90%;
+      border-radius: 0 50px 50px 0;
+    }
+  }
+  .submenu__wrap {
+    .ant-menu-submenu-title {
+      padding-left: 35px !important;
+      width: 90%;
+      &:hover {
+        color: #fff !important;
+        background: #bb9b62 !important;
+        border-radius: 0 50px 50px 0;
+        width: 90%;
+      }
+      &:active {
+        color: #fff;
+        background: #bb9b62;
+        width: 90%;
+        border-radius: 0 50px 50px 0;
+      }
+      &:focus {
+        color: #fff;
+        background: #bb9b62;
+        width: 90%;
+        border-radius: 0 50px 50px 0;
+        outline: none;
+      }
+    }
+    .ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+      background: rgba(187, 155, 98, 0.28);
+    }
+    .ant-menu-vertical .ant-menu-item::after,
+    .ant-menu-vertical-left .ant-menu-item::after,
+    .ant-menu-vertical-right .ant-menu-item::after,
+    .ant-menu-inline .ant-menu-item::after {
+      border-right: 3px solid #bb9b62;
+    }
+    .ant-menu-item:hover,
+    .ant-menu-item-active,
+    .ant-menu:not(.ant-menu-inline) .ant-menu-submenu-open,
+    .ant-menu-submenu-active,
+    .ant-menu-submenu-title:hover {
+      color: #a2a2a2;
+      background: rgba(187, 155, 98, 0.28);
+    }
+  }
+  .ant-menu-submenu-selected {
+    color: #a2a2a2;
+  }
+  // a{
+  //   &:hover{
+  //     color: #a2a2a2;
+  //     text-decoration: none;
+  //   }
+  // }
+  .ant-menu-item-selected > a,
+  .ant-menu-item-selected > a &:hover {
+    color: #a2a2a2;
+    text-decoration: none;
+  }
+  .ant-menu-item > a{
+    color: #a2a2a2;
+    &:hover{
+      color: #a2a2a2;
+    text-decoration: none;
+    }
+  }
+}

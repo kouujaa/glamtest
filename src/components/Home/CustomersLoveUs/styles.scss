@@ -1,0 +1,92 @@
+.customers__review {
+  .section__title {
+    text-align: center;
+    margin: 70px 0 20px;
+    h2 {
+      font-size: 30px;
+      margin: 0;
+      font-family: "Playfair Display";
+      font-weight: 500;
+    }
+    p {
+      font-size: 15px;
+      margin: 0;
+      font-family: "Poppins";
+    }
+  }
+  .imgs {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+  }
+
+  .main__img .slick-slide {
+    opacity: 0.2;
+  }
+
+  .main__img .slick-center {
+    transform: scale(1.2);
+    transition: 0.2s;
+    opacity: 1;
+  }
+
+  .slider {
+    width: 600px;
+    margin: 0 auto 20px;
+    text-align: center;
+    padding: 0 20px 20px;
+    color: white;
+    .slide {
+      padding: 40px;
+      .child-element {
+        -webkit-transition: all 0.2s ease;
+        transition: all 0.2s ease;
+        background: transparent;
+        width: 100%;
+        height: 70px;
+      }
+    }
+    .slide.slick-center .child-element {
+      background: #fff;
+      -webkit-transform: translate(-70px, 0px);
+      transform: translate(-70px, 0px);
+      width: calc(100% + 140px);
+      max-width: initial;
+    }
+  }
+
+  .text__slider {
+    margin-top: 20px;
+    p {
+      color: #333;
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .customers__review {
+    .slider {
+      .slide{
+        padding: 40px 0;
+      }
+    }
+    .imgs{
+      margin: 0 auto;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .customers__review {
+    .slider {
+      width: 100%;
+      .slide{
+        padding: 40px 0;
+      }
+    }
+    .imgs{
+      margin: 0 auto;
+    }
+  }
+}
