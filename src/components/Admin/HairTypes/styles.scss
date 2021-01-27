@@ -14,13 +14,13 @@
     margin-bottom: 30px;
   }
   .card_hairstylist {
-    &:hover{
+    &:hover {
       -webkit-transform: scale(1.01);
       transform: scale(1.05);
-      -webkit-transition: -webkit-transform .2s;
-      transition: -webkit-transform .2s;
-      transition: transform .2s;
-      transition: transform .2s,-webkit-transform .2s;
+      -webkit-transition: -webkit-transform 0.2s;
+      transition: -webkit-transform 0.2s;
+      transition: transform 0.2s;
+      transition: transform 0.2s, -webkit-transform 0.2s;
     }
     .ant-card-actions {
       display: flex;
@@ -81,34 +81,33 @@
   }
 }
 
-
-.drawer_add_dashboard{
-  .ant-drawer-title{
-    font-family: "Playfair Display";
+.drawer_add_dashboard {
+  .ant-drawer-title {
+    font-family: "Poppins Display";
     font-size: 20px;
   }
-  label{
+  label {
     font-family: "Poppins";
     padding: 0 22px;
     margin: 0;
     width: 100%;
     font-size: 15px;
   }
-  input{
+  input {
     font-family: "Poppins";
     border-radius: 20px;
     box-shadow: 0 4px 10px 0 #bbb;
     padding: 22px;
     transition: all 0.4s ease-in-out;
     font-size: 15px;
-    &:focus{
+    &:focus {
       border-color: #ced4da;
-    outline: 0;
-    box-shadow: none;
-    transition: all 0.4s ease-in-out;
+      outline: 0;
+      box-shadow: none;
+      transition: all 0.4s ease-in-out;
     }
   }
-  span{
+  span {
     width: 100%;
     margin-bottom: 15px;
     color: #ff0000;
@@ -116,7 +115,7 @@
     margin-top: 5px;
     float: left;
   }
-  .btn_wrap{
+  .btn_wrap {
     text-align: right;
     button {
       border-radius: 50px;
@@ -126,7 +125,7 @@
       font-size: 20px;
       line-height: 19px;
       margin: 30px 0 0 0;
-      font-family: "Playfair Display";
+      font-family: "Poppins Display";
       transition: all 0.5s ease-in-out;
       &:hover {
         background: #5c452d !important;
@@ -137,15 +136,14 @@
   }
 }
 
-
-@media screen and (max-width: 767px){
-  .ant-drawer-content-wrapper{
+@media screen and (max-width: 767px) {
+  .ant-drawer-content-wrapper {
     width: 100% !important;
     max-width: 100% !important;
   }
 }
-.popconfirm_wrapper{
-  .ant-btn-primary{
+.popconfirm_wrapper {
+  .ant-btn-primary {
     background: #fff;
     color: rgba(0, 0, 0, 0.65);
     border-color: #d9d9d9;
@@ -154,7 +152,7 @@
     height: 24px;
     padding: 0 7px;
     font-size: 14px;
-    &:hover{
+    &:hover {
       color: #40a9ff;
       background-color: #fff;
       border-color: #40a9ff;

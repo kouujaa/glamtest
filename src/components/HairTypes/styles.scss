@@ -5,7 +5,7 @@
     h2 {
       font-size: 30px;
       margin: 0;
-      font-family: "Playfair Display";
+      font-family: "Poppins Display";
       font-weight: 500;
     }
     p {
@@ -15,7 +15,7 @@
       color: #a2a2a2;
     }
   }
-  .bannerheight{
+  .bannerheight {
     width: 100%;
     max-width: 100%;
     height: 500px;
@@ -87,11 +87,11 @@
         width: 100%;
         display: flex;
         justify-content: center;
-        .ant-carousel{
+        .ant-carousel {
           width: 100%;
         }
-        
-        .ant-carousel .slick-dots li button{
+
+        .ant-carousel .slick-dots li button {
           background-color: #bb9b62;
         }
         img {
@@ -108,7 +108,7 @@
         color: #1f0d0b;
         .salon_name {
           margin: 0;
-          font-family: "Playfair Display";
+          font-family: "Poppins Display";
           font-size: 20px;
         }
         .salon_address {
@@ -174,4 +174,3 @@
     }
   }
 }
-

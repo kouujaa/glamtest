@@ -70,7 +70,7 @@
       margin-right: 5px;
     }
   }
-  .download-table-xls-button{
+  .download-table-xls-button {
     background: #bb9b62;
     border: none;
     color: #fff;
@@ -80,19 +80,19 @@
     font-size: 14px;
     border-radius: 4px;
   }
-  .download-table-xls-button:focus{
+  .download-table-xls-button:focus {
     background: #bb9b62;
     border: none;
     outline: none;
   }
 }
 .drawer_mail_dashboard {
-    .ant-drawer-body{
-      overflow-x: hidden;
-      height: 100%;
-    }
+  .ant-drawer-body {
+    overflow-x: hidden;
+    height: 100%;
+  }
   .ant-drawer-title {
-    font-family: "Playfair Display";
+    font-family: "Poppins Display";
     font-size: 20px;
   }
   label {
@@ -170,7 +170,7 @@
       font-size: 20px;
       line-height: 19px;
       margin: 0 0 20px;
-      font-family: "Playfair Display";
+      font-family: "Poppins Display";
       transition: all 0.5s ease-in-out;
       &:hover {
         background: #5c452d !important;
@@ -178,7 +178,7 @@
         transition: all 0.5s ease-in-out;
       }
     }
-    p{
+    p {
       font-size: 16px;
       font-family: "Poppins";
       background: #bb9b62;
@@ -187,7 +187,7 @@
       color: #fff;
     }
   }
-  .ant-spin-nested-loading > div > .ant-spin{
+  .ant-spin-nested-loading > div > .ant-spin {
     position: absolute;
     top: 50%;
     left: 50%;

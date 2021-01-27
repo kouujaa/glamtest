@@ -13,13 +13,13 @@
     margin-bottom: 30px;
   }
   .card_hairstylist {
-    &:hover{
+    &:hover {
       -webkit-transform: scale(1.01);
       transform: scale(1.05);
-      -webkit-transition: -webkit-transform .2s;
-      transition: -webkit-transform .2s;
-      transition: transform .2s;
-      transition: transform .2s,-webkit-transform .2s;
+      -webkit-transition: -webkit-transform 0.2s;
+      transition: -webkit-transform 0.2s;
+      transition: transform 0.2s;
+      transition: transform 0.2s, -webkit-transform 0.2s;
     }
     .ant-card-actions {
       display: flex;
@@ -80,34 +80,33 @@
   }
 }
 
-
-.drawer_add_dashboard{
-  .ant-drawer-title{
-    font-family: "Playfair Display";
+.drawer_add_dashboard {
+  .ant-drawer-title {
+    font-family: "Poppins Display";
     font-size: 20px;
   }
-  label{
+  label {
     font-family: "Poppins";
     padding: 0 22px;
     margin: 0;
     width: 100%;
     font-size: 15px;
   }
-  input{
+  input {
     font-family: "Poppins";
     border-radius: 20px;
     box-shadow: 0 4px 10px 0 #bbb;
     padding: 22px;
     transition: all 0.4s ease-in-out;
     font-size: 15px;
-    &:focus{
+    &:focus {
       border-color: #ced4da;
-    outline: 0;
-    box-shadow: none;
-    transition: all 0.4s ease-in-out;
+      outline: 0;
+      box-shadow: none;
+      transition: all 0.4s ease-in-out;
     }
   }
-  span{
+  span {
     width: 100%;
     margin-bottom: 15px;
     color: #ff0000;
@@ -115,7 +114,7 @@
     margin-top: 5px;
     float: left;
   }
-  .btn_wrap{
+  .btn_wrap {
     text-align: right;
     button {
       border-radius: 50px;
@@ -125,7 +124,7 @@
       font-size: 20px;
       line-height: 19px;
       margin: 30px 0 0 0;
-      font-family: "Playfair Display";
+      font-family: "Poppins Display";
       transition: all 0.5s ease-in-out;
       &:hover {
         background: #5c452d !important;
@@ -136,20 +135,20 @@
   }
 }
 
-.img_uploader{
+.img_uploader {
   display: flex;
   justify-content: flex-start;
   align-items: center;
   flex-direction: row;
   overflow-x: auto;
   overflow-y: hidden;
-  .ant-upload-list{
+  .ant-upload-list {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 9px;
   }
-  .ant-upload.ant-upload-select-picture-card{
+  .ant-upload.ant-upload-select-picture-card {
     // margin-top: 5px;
     // margin-left: 25px;
     // margin-bottom: 0;
@@ -157,16 +156,16 @@
     margin-left: 0;
     margin-bottom: 0;
   }
-  span{
+  span {
     margin: 0;
     padding: 0;
   }
-  .ant-upload-list-picture-card .ant-upload-list-item-uploading-text{
+  .ant-upload-list-picture-card .ant-upload-list-item-uploading-text {
     margin-top: 30px;
     color: rgba(0, 0, 0, 0.45);
     text-align: center;
   }
-  .ant-upload.ant-upload-select-picture-card > .ant-upload{
+  .ant-upload.ant-upload-select-picture-card > .ant-upload {
     padding: 0 !important;
     max-width: 104px;
     max-height: 104px;
@@ -174,12 +173,12 @@
     min-width: 104px;
     color: #888;
   }
-  .ant-upload-list-picture-card .ant-upload-list-item-actions{
+  .ant-upload-list-picture-card .ant-upload-list-item-actions {
     left: 75%;
   }
 }
-.popconfirm_wrapper{
-  .ant-btn-primary{
+.popconfirm_wrapper {
+  .ant-btn-primary {
     background: #fff;
     color: rgba(0, 0, 0, 0.65);
     border-color: #d9d9d9;
@@ -188,7 +187,7 @@
     height: 24px;
     padding: 0 7px;
     font-size: 14px;
-    &:hover{
+    &:hover {
       color: #40a9ff;
       background-color: #fff;
       border-color: #40a9ff;

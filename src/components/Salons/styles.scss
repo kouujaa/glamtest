@@ -6,7 +6,7 @@
     h2 {
       font-size: 30px;
       margin: 0;
-      font-family: "Playfair Display";
+      font-family: "Poppins Display";
       font-weight: 500;
     }
     p {
@@ -16,7 +16,7 @@
       color: #a2a2a2;
     }
   }
-  .bannerheight{
+  .bannerheight {
     width: 100%;
     max-width: 100%;
     height: 500px;
@@ -57,29 +57,29 @@
           color: #000;
           max-height: 32px;
         }
-        ul{
+        ul {
           overflow-x: hidden;
           display: flex;
           justify-content: center;
           position: relative;
-          li{
+          li {
             background: transparent;
             border: 0;
-            .ant-select-selection__choice__remove{
+            .ant-select-selection__choice__remove {
               display: none;
             }
           }
-          .ant-select-selection__choice__disabled{
+          .ant-select-selection__choice__disabled {
             display: block;
             padding: 0;
-    margin: 0;
-    position: absolute;
-    left: 100px;
-    top: 3px;
+            margin: 0;
+            position: absolute;
+            left: 100px;
+            top: 3px;
           }
         }
       }
-      .ratings_wrap_salon{
+      .ratings_wrap_salon {
         overflow: visible !important;
       }
       .btn_reset {
@@ -87,7 +87,7 @@
         border-radius: 50px;
         width: 100%;
         padding: 2px 20px;
-        font-family: "Playfair Display";
+        font-family: "Poppins Display";
         &:hover {
           transition: all 0.5s ease-in-out;
           background: #888888;
@@ -102,7 +102,7 @@
         transition: all 0.5s ease-in-out;
         color: #fff;
         width: 100%;
-        font-family: "Playfair Display";
+        font-family: "Poppins Display";
         &:hover {
           transition: all 0.5s ease-in-out;
           background: #5c452d;
@@ -136,44 +136,44 @@
     }
   }
   .salons_wrap {
-      padding: 70px 0 0 0;
-  .card {
-      box-shadow: 0px 0px 15px 8px rgba(231,231,231,1);
+    padding: 70px 0 0 0;
+    .card {
+      box-shadow: 0px 0px 15px 8px rgba(231, 231, 231, 1);
       border: 0;
       cursor: pointer;
       margin-bottom: 30px;
       height: 95%;
-    .card_img {
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      height: 230px;
-      padding: 10px;
-      .ant-carousel{
+      .card_img {
         width: 100%;
+        display: flex;
+        justify-content: center;
+        height: 230px;
+        padding: 10px;
+        .ant-carousel {
+          width: 100%;
+        }
+
+        .ant-carousel .slick-dots li button {
+          background-color: #bb9b62;
+        }
+        img {
+          width: 100%;
+          height: 235px;
+          margin-bottom: 0px;
+          padding-bottom: 10px;
+          object-fit: contain;
+        }
       }
-      
-      .ant-carousel .slick-dots li button{
-        background-color: #bb9b62;
-      }
-      img {
-        width: 100%;
-        height: 235px;
-        margin-bottom: 0px;
-        padding-bottom: 10px;
-        object-fit: contain;
-      }
-    }
-    .salon_description{
-      font-family: "Poppins";
-          padding: 20px 10px;
-          color: #1f0d0b;
-        .salon_name{
+      .salon_description {
+        font-family: "Poppins";
+        padding: 20px 10px;
+        color: #1f0d0b;
+        .salon_name {
           margin: 0;
-          font-family: "Playfair Display";
+          font-family: "Poppins Display";
           font-size: 20px;
         }
-        .salon_address{
+        .salon_address {
           font-size: 14px;
           margin: 0 0 5px;
         }
@@ -206,44 +206,43 @@
             color: #fff;
           }
         }
-        .salon_ratings{
+        .salon_ratings {
           margin: 0 0 5px;
           font-size: 20px;
-            .filled_star{
-              color: #ffcc00;
-            }
-            .empty_star{
-              color: #a2a2a2;
-            }
+          .filled_star {
+            color: #ffcc00;
+          }
+          .empty_star {
+            color: #a2a2a2;
+          }
         }
-        .avg_cost{
+        .avg_cost {
           font-size: 30px;
           margin: 0 0 5px;
         }
-        .salon_speciality{
+        .salon_speciality {
           font-size: 12px;
           margin: 0;
         }
+      }
     }
   }
 }
-}
 
-
-@media screen and (max-width:992px){
-  .salonspage_wrap .bannerheight{
-  height:278px
+@media screen and (max-width: 992px) {
+  .salonspage_wrap .bannerheight {
+    height: 278px;
   }
 }
-@media screen and (max-width: 767px){
+@media screen and (max-width: 767px) {
   .salonspage_wrap ul {
     overflow-y: hidden;
     display: flex;
     overflow-x: auto;
-}
+  }
 }
 
-.salonSearch{
+.salonSearch {
   background: transparent;
   border: 0;
   border-bottom: 1px solid #bb9b62;
@@ -256,12 +255,11 @@
     border-bottom: 1px solid #bb9b62;
     border-radius: 0;
     outline: none;
-
   }
 }
 
-@media screen and (max-width:600px){
-  .salonspage_wrap .bannerheight{
-  height:150px
+@media screen and (max-width: 600px) {
+  .salonspage_wrap .bannerheight {
+    height: 150px;
   }
 }

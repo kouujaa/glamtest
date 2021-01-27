@@ -12,7 +12,7 @@
       padding: 20px 0 16px 0;
       label {
         font-size: 22px;
-        font-family: "Playfair Display";
+        font-family: "Poppins Display";
       }
       .email_input {
         border-radius: 50px;
@@ -37,7 +37,7 @@
         font-size: 20px;
         line-height: 19px;
         margin: 0;
-        font-family: "Playfair Display";
+        font-family: "Poppins Display";
         transition: all 0.5s ease-in-out;
         &:hover {
           transition: all 0.5s ease-in-out;
@@ -54,14 +54,14 @@
       }
     }
   }
-  .instaFeed__wrapper{
+  .instaFeed__wrapper {
     border-bottom: 1px solid #c2c2c2;
     margin-top: -70px;
     padding: 70px 0 0 0;
     display: flex;
     flex-direction: row;
     overflow: overlay;
-    img{
+    img {
       height: 200px;
     }
   }
@@ -81,8 +81,8 @@
       li {
         display: inline-block;
         width: 33.333%;
-        a{
-          &:hover{
+        a {
+          &:hover {
             text-decoration: none;
           }
         }
@@ -156,9 +156,9 @@
   }
 }
 
-@media screen and (max-width:992px){
-  .footer__bg .footer__wrap ul li{
-        width: 48.333%;
+@media screen and (max-width: 992px) {
+  .footer__bg .footer__wrap ul li {
+    width: 48.333%;
     margin-top: 30px;
   }
   .signup__wrapper {
@@ -170,26 +170,23 @@
         .email_input {
           width: 90% !important;
         }
-        
       }
     }
   }
 }
 
-
-
 @media screen and (max-width: 767px) {
   .signup__wrapper {
     .signup__fields {
-      .form__wrap {    
+      .form__wrap {
         display: block;
         text-align: center;
-        .form-group{
-        display: block;
-        flex: 0;
-        flex-flow: row wrap;
-        align-items: center;
-        margin-bottom: 20px;          
+        .form-group {
+          display: block;
+          flex: 0;
+          flex-flow: row wrap;
+          align-items: center;
+          margin-bottom: 20px;
         }
 
         label {

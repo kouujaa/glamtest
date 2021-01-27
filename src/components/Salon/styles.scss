@@ -20,7 +20,7 @@
 
       h2 {
         font-size: 30px;
-        font-family: "Playfair Display";
+        font-family: "Poppins Display";
         font-weight: 500;
       }
 
@@ -104,7 +104,7 @@
 
     .ant-carousel .slick-dots li button {
       background: #bb9b62;
-      opacity: .75;
+      opacity: 0.75;
     }
 
     .ant-carousel .slick-list .slick-slide {
@@ -148,7 +148,7 @@
 
     .review_title {
       font-size: 20px;
-      font-family: "Playfair Display";
+      font-family: "Poppins Display";
       font-weight: 500;
       margin: 0;
       padding: 10px 0;
@@ -162,7 +162,7 @@
         width: auto;
         float: right;
         margin: 0;
-        font-family: "Playfair Display";
+        font-family: "Poppins Display";
 
         &:hover {
           transition: all 0.5s ease-in-out;
@@ -239,7 +239,7 @@
         .show .overlay {
           width: 100%;
           height: 100%;
-          background: rgba(0, 0, 0, .5);
+          background: rgba(0, 0, 0, 0.5);
           position: fixed;
           top: 0;
           left: 0;
@@ -248,7 +248,7 @@
         .show .img-show {
           width: 600px;
           height: 565px;
-          background: #FFF;
+          background: #fff;
           position: fixed;
           top: 50%;
           left: 50%;
@@ -295,7 +295,7 @@
 
     .salon_title {
       font-size: 20px;
-      font-family: "Playfair Display";
+      font-family: "Poppins Display";
       font-weight: 500;
       margin: 0 0 20px;
       text-align: center;
@@ -358,7 +358,7 @@
           width: auto;
           float: right;
           margin: 0;
-          font-family: "Playfair Display";
+          font-family: "Poppins Display";
 
           &:hover {
             transition: all 0.5s ease-in-out;
@@ -373,7 +373,7 @@
 }
 
 .modal_head {
-  font-family: "Playfair Display";
+  font-family: "Poppins Display";
   font-size: 20px;
   margin: 0;
 }
@@ -441,7 +441,7 @@
       width: auto;
       float: right;
       margin: 0;
-      font-family: "Playfair Display";
+      font-family: "Poppins Display";
 
       &:hover {
         transition: all 0.5s ease-in-out;
@@ -454,7 +454,7 @@
 }
 
 .react-datepicker__time-list-item--disabled {
-  display: none
+  display: none;
 }
 
 button.favorite_btn {
@@ -493,55 +493,53 @@ button.favorite_btn {
   cursor: pointer;
   padding-top: 4px;
   color: #fff;
-
 }
 
-
-@media screen and (max-width:600px){
-  .salon_wrap .salon_img{
+@media screen and (max-width: 600px) {
+  .salon_wrap .salon_img {
     height: 130px;
     object-fit: fill;
   }
-  .salon_wrap .salon_info_wrap .info_wrapper{
+  .salon_wrap .salon_info_wrap .info_wrapper {
     width: 100%;
   }
 
-  .salon_wrap .salon_info_wrap .salon_ratings{
+  .salon_wrap .salon_info_wrap .salon_ratings {
     width: 100%;
     text-align: left;
     float: left;
   }
 
-  .salon_wrap .contact_details .ant-carousel{
+  .salon_wrap .contact_details .ant-carousel {
     width: 100%;
     margin-bottom: 20px;
   }
 
-  .mobile-dblock{
+  .mobile-dblock {
     display: block;
   }
 
-  .salon_wrap .contact_details{
+  .salon_wrap .contact_details {
     display: block;
   }
-  .salon_wrap .contact_details{
+  .salon_wrap .contact_details {
     width: 100%;
     margin-bottom: 20px;
   }
-  .salon_wrap .review_wrap .review_content_wrap{
+  .salon_wrap .review_wrap .review_content_wrap {
     padding-bottom: 10px;
   }
-  .ant-collapse-content > .ant-collapse-content-box{
+  .ant-collapse-content > .ant-collapse-content-box {
     padding: 0px;
   }
 
-  .salon_wrap .review_wrap .review_content_wrap .review_content{
+  .salon_wrap .review_wrap .review_content_wrap .review_content {
     width: 100%;
     padding: 0;
     margin-top: 10px;
   }
 
-  .salon_wrap .review_wrap .review_content_wrap .review_ratings{
+  .salon_wrap .review_wrap .review_content_wrap .review_ratings {
     text-align: left;
     width: 100%;
   }

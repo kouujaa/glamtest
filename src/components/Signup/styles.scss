@@ -9,7 +9,7 @@
       object-fit: contain;
     }
   }
-  .ant-select-selection__placeholder{
+  .ant-select-selection__placeholder {
     color: #a65f2b;
   }
   .close_page {
@@ -25,7 +25,7 @@
       width: 80%;
       margin: 0 auto;
       .react-tabs__tab-list {
-        background: rgba(0,0,0,0.4);
+        background: rgba(0, 0, 0, 0.4);
         margin: 0;
         border: 0;
         li {
@@ -33,14 +33,14 @@
           border: 1px solid #d8bd93;
           width: 50%;
           padding: 10px 0;
-          font-family: "Playfair Display";
+          font-family: "Poppins Display";
           font-size: 20px;
           text-align: center;
           color: #fff;
           img {
             width: 35px;
           }
-          &:hover{
+          &:hover {
             background: #d8bd93;
             transition: all 0.5s ease-in-out;
             border-radius: 0;
@@ -58,7 +58,7 @@
     padding: 20px 0px;
     width: 80%;
     margin: 0 auto;
-    background: rgba(0,0,0,0.6);
+    background: rgba(0, 0, 0, 0.6);
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     h2 {
@@ -88,7 +88,7 @@
     .login_form {
       width: 100%;
       margin: 0 auto;
-      background: rgba(0,0,0,0.6);
+      background: rgba(0, 0, 0, 0.6);
       padding: 15px 50px 20px;
       .profile_img_wrap {
         width: 100px;
@@ -159,10 +159,10 @@
             transition: all 0.4s ease-in-out;
           }
         }
-        .input::placeholder{
+        .input::placeholder {
           color: #a7682b;
         }
-        .error_message{
+        .error_message {
           position: absolute;
           bottom: -20px;
           color: #f00;
@@ -170,31 +170,36 @@
           left: 0;
           padding: 0 0 0 22px;
         }
-        .choose_error{
+        .choose_error {
           bottom: 0px;
         }
-        .select_type{
-          ul{
+        .select_type {
+          ul {
             display: flex;
             flex-wrap: nowrap;
             overflow-x: auto;
             padding: 8px;
-            li{
+            li {
               width: auto;
               display: inline-block;
             }
           }
-          .ant-select-selection--multiple .ant-select-arrow{
+          .ant-select-selection--multiple .ant-select-arrow {
             top: 24px;
           }
         }
-        span.ant-select-arrow{
+        span.ant-select-arrow {
           color: #a55425;
         }
-        .ant-select-allow-clear .ant-select-selection--multiple .ant-select-selection__rendered, .ant-select-show-arrow .ant-select-selection--multiple .ant-select-selection__rendered{
+        .ant-select-allow-clear
+          .ant-select-selection--multiple
+          .ant-select-selection__rendered,
+        .ant-select-show-arrow
+          .ant-select-selection--multiple
+          .ant-select-selection__rendered {
           height: 46px;
         }
-        .ant-select-selection--multiple .ant-select-selection__placeholder{
+        .ant-select-selection--multiple .ant-select-selection__placeholder {
           color: #a65f28;
         }
       }
@@ -230,9 +235,9 @@
           }
         }
       }
-      .business_select_type.select_type{
+      .business_select_type.select_type {
         padding: 8px;
-        .ant-select-selection-selected-value{
+        .ant-select-selection-selected-value {
           color: rgb(166, 95, 40);
         }
       }
@@ -304,7 +309,7 @@
         color: #fff !important;
         font-size: 20px;
         line-height: 19px;
-        font-family: "Playfair Display";
+        font-family: "Poppins Display";
         transition: all 0.5s ease-in-out;
         &:hover {
           background: #5c452d !important;
@@ -312,7 +317,7 @@
           transition: all 0.5s ease-in-out;
         }
       }
-      .btn_add{
+      .btn_add {
         border-radius: 50px;
         padding: 10px 20px 13px;
         width: 300px;
@@ -320,7 +325,7 @@
         color: #fff !important;
         font-size: 20px;
         line-height: 19px;
-        font-family: "Playfair Display";
+        font-family: "Poppins Display";
         transition: all 0.5s ease-in-out;
         &:hover {
           background: #5c452d !important;
@@ -364,17 +369,16 @@
           width: 90%;
           margin: 0;
         }
-        .select_type{
+        .select_type {
           width: 100%;
         }
-        .btn_add{
+        .btn_add {
           width: 100%;
         }
       }
     }
   }
 }
-
 
 @media screen and (max-width: 767px) {
   .signup {
@@ -384,34 +388,34 @@
     .tabs_signup {
       .react-tabs {
         width: 100%;
-        .react-tabs__tab-list{
-          li{
+        .react-tabs__tab-list {
+          li {
             width: 100%;
           }
-        } 
+        }
       }
     }
     .login_wrap {
       .login_form {
         padding: 20px;
-        ul{
-          li{
+        ul {
+          li {
             width: 100%;
           }
         }
-        .btn_login{
+        .btn_login {
           width: 100%;
         }
-        .select_price{
+        .select_price {
           width: 100%;
         }
         .form-group {
           margin: 0 auto;
         }
-        .select_type{
+        .select_type {
           width: 100%;
         }
-        .btn_add{
+        .btn_add {
           width: 100%;
         }
       }
@@ -419,13 +423,12 @@
   }
 }
 
-
-@media screen and (max-width:600px){
-.signup .logo_wrap{
-      margin-left: 15px;
-      padding-top:15px;
-}
-  .signup .login_wrap{
-  padding:unset;
+@media screen and (max-width: 600px) {
+  .signup .logo_wrap {
+    margin-left: 15px;
+    padding-top: 15px;
+  }
+  .signup .login_wrap {
+    padding: unset;
   }
 }

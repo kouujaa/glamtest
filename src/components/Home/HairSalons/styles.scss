@@ -9,7 +9,7 @@
     h2 {
       font-size: 30px;
       margin: 0;
-      font-family: "Playfair Display";
+      font-family: "Poppins Display";
       font-weight: 500;
     }
     p {
@@ -20,7 +20,7 @@
   }
   .card {
     min-height: 500px;
-    box-shadow: 0 5px 27px rgba(0,0,0,0.22);
+    box-shadow: 0 5px 27px rgba(0, 0, 0, 0.22);
     border: 0;
 
     .card-body {
@@ -29,7 +29,7 @@
       .card-title {
         font-size: 28px;
         font-weight: normal;
-        font-family: "Playfair Display";
+        font-family: "Poppins Display";
         color: #1f0d0b;
         margin-bottom: 30px;
       }
@@ -56,15 +56,15 @@
       width: 50%;
     }
   }
-  .ant-btn-primary{
+  .ant-btn-primary {
     width: 48%;
     transition: all 0.3s ease-in-out;
     padding: 10px 34px;
-    i{
+    i {
       transition: all 0.3s ease-in-out;
     }
-    &:hover{
-      i{
+    &:hover {
+      i {
         padding-left: 30px;
         transition: all 0.3s ease-in-out;
       }
@@ -72,13 +72,12 @@
   }
 }
 
-
-@media screen and (max-width:992px){
-  .salons__wrap{
-  width:100%;
+@media screen and (max-width: 992px) {
+  .salons__wrap {
+    width: 100%;
   }
 }
-@media screen and (max-width: 767px){
+@media screen and (max-width: 767px) {
   .salons__wrap {
     width: 100%;
     padding: 0;
